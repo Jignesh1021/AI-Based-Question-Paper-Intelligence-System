@@ -1,0 +1,62 @@
+# Environment Files
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases
+*.db
+*.sqlite3
+backend/question_paper_intelligence.db
+
+# Machine Learning Artifacts
+backend/app/data/*.joblib
+backend/app/data/*.pkl
+
+# Exports & Temporary Files
+backend/app/data/powerbi_export.csv
+*.pdf
+backend/exports/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.github/copilot-instructions.md
+/.github/
